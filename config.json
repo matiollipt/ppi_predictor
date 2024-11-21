@@ -1,0 +1,62 @@
+{
+  "environment": {
+    "random_seed": 42,
+    "device": "cuda"
+  },
+
+  "paths": {
+    "datasets": "datasets/",
+    "localpdb": "/media/clever/aidbio/data/localpdb/mirror/pdb/",
+    "raw": "raw/",
+    "preprocessed": "preprocessed/",
+    "logs": "logs/",
+    "model_checkpoint": "checkpoints/"
+  },
+
+  "preprocessing_params": {
+    "max_residues": 2000,
+    "mol_threshold_distance": 9.5,
+    "fingerprint_radius": 1.0,
+    "aminoacids": {
+    "ALA": "A",
+    "ARG": "R",
+    "ASN": "N",
+    "ASP": "D",
+    "CYS": "C",
+    "GLN": "Q",
+    "GLU": "E",
+    "GLY": "G",
+    "HIS": "H",
+    "ILE": "I",
+    "LEU": "L",
+    "LYS": "K",
+    "MET": "M",
+    "PHE": "F",
+    "PRO": "P",
+    "PYL": "O",
+    "SER": "S",
+    "SEC": "U",
+    "THR": "T",
+    "TRP": "W",
+    "TYR": "Y",
+    "VAL": "V",
+    "ASX": "B",
+    "GLX": "Z",
+    "XAA": "X",
+    "XLE": "J",
+    "FME": "M",
+    "TMP": "T"
+  }
+  },
+
+  "wandb_config": {
+    "lr": 0.001,
+    "epochs": 3,
+    "batch_size": 4,
+    "num_attention_heads": 4,
+    "embedding_dim": 32,
+    "num_gnn_layers": 1,
+    "dropout_rate": 0.2
+
+}
+}
