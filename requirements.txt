@@ -1,0 +1,46 @@
+# Core Libraries
+torch
+torchvision
+torchaudio
+torch-geometric
+dgl -f https://data.dgl.ai/wheels/torch-2.4/cu124/repo.html
+numpy
+pandas
+tabulate
+scipy
+scikit-learn
+networkx
+matplotlib
+seaborn
+plotly
+pyvis
+graphviz
+
+# Monitoring and Experiment Tracking
+wandb
+tensorboardX
+optuna
+tqdm
+
+# Graph-Specific Libraries
+pygsp
+graphistry
+
+# Model Interpretability and Explainability
+captum
+shap
+
+# Efficient Data Loading
+dask
+ray
+
+# Profiling and Optimization
+py-spy
+line_profiler
+
+# Environment Tools (Useful for Jupyter notebooks and extensions)
+jupyter
+jupyterlab
+jupyterlab_widgets
+jupytext
+ipywidgets
