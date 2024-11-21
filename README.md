@@ -1,4 +1,4 @@
-# AidBio PPI Predictor
+# AidBio PPI Predictor  (main_v4.ipynb)
 **Author: Matiolli, CC, Ph.D.**
 
 The AidBio PPI is a graph neural network designed to predict protein-protein interactions (PPIs) of proteins represented as molecular graphs, graph neural networks (GNNs) and mutual attention. AidBio PPI is implemented using [PyTorch](https://github.com/pytorch/pytorch).
